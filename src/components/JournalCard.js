@@ -4,11 +4,11 @@ export default function JournalCard(props) {
     return (
         <div className="journal-card">
             <div className="journal--photo-div">
-                <img src={props.imageUrl} className="journal--photo"/>
+                <img src={props.imageUrl} className="journal--photo" alt=""/>
             </div>
           <div className="journal--info">
             <div className="journal--location">
-                <img src="../assets/pin.png" />
+                <img src="../assets/pin.png" alt=""/>
                 <span>{props.location.toUpperCase()}</span>
                 <a href={`${props.googleMapsUrl}`} className="gray">View on Google Maps</a>
             </div>
