@@ -8,7 +8,7 @@ return (
                 <h2>{props.title}</h2>
                 <span className="close" onClick={props.handleClose}>&times;</span>
             </div>
-            <img src={props.image} alt={props.title}/>
+            <img src={props.imageUrl} alt={props.title}/>
         </div>
     </div>
 )
