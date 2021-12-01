@@ -108,7 +108,7 @@ img.journal--photo:hover {
 }
 .modal-content {
   position: relative;
-  max-width: 800px;
+  max-width: 80%;
 }
 .modal--header {
   display: flex;
