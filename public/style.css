@@ -108,6 +108,7 @@ img.journal--photo:hover {
 }
 .modal-content {
   position: relative;
+  max-width: 800px;
 }
 .modal--header {
   display: flex;
@@ -124,6 +125,7 @@ img.journal--photo:hover {
 
 .modal-content > img {
   border-radius: 1.5rem;
+  width: 100%;
 }
 span.close {
   cursor: pointer;
