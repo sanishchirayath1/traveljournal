@@ -23,13 +23,15 @@ export default function App() {
     }
 
 
-    const journals = data.map(place => <JournalCard key={place.title} {...place} handleClick={handleClose} />)
+    const journals = data.map(place => <JournalCard 
+        key={place.title} {...place} 
+        handleClick={handleClose} />)
 
     const modal = <Modal 
-    handleClose={handleClose}
-    title={modalInfo.title} 
-    imageUrl={modalInfo.imageUrl}
-    />
+                    handleClose={handleClose}
+                    title={modalInfo.title} 
+                    imageUrl={modalInfo.imageUrl}
+                />
 
 
     return (
