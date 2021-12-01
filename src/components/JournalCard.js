@@ -4,7 +4,11 @@ export default function JournalCard(props) {
     return (
         <div className="journal-card">
             <div className="journal--photo-div">
-                <img src={props.imageUrl} className="journal--photo" alt=""/>
+                <img src={props.imageUrl} 
+                className="journal--photo" 
+                alt={props.title}
+                onClick={props.handleClick}
+                />
             </div>
           <div className="journal--info">
             <div className="journal--location">
