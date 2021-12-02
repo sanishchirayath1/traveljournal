@@ -27,11 +27,12 @@ export default function App() {
         key={place.title} {...place} 
         handleClick={handleClose} />)
 
-    const modal = <Modal 
-                    handleClose={handleClose}
-                    title={modalInfo.title} 
-                    imageUrl={modalInfo.imageUrl}
+    const modal = <Modal
+            handleClose={handleClose}
+            title={modalInfo.title} 
+            imageUrl={modalInfo.imageUrl}
                 />
+
 
 
     return (
